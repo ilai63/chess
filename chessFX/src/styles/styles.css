@@ -1,0 +1,64 @@
+.transparent-scrollpane {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
+
+.transparent-scrollpane .viewport {
+    -fx-background-color: transparent;
+}
+
+.transparent-scrollpane .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.transparent-scrollpane .scroll-bar .thumb {
+    -fx-background-color: transparent;
+}
+
+.transparent-scrollpane .scroll-bar:vertical .increment-button,
+.transparent-scrollpane .scroll-bar:vertical .decrement-button,
+.transparent-scrollpane .scroll-bar:horizontal .increment-button,
+.transparent-scrollpane .scroll-bar:horizontal .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-shape: "";
+}
+
+.transparent-scrollpane .scroll-bar .increment-arrow,
+.transparent-scrollpane .scroll-bar .decrement-arrow {
+    -fx-shape: "";
+    -fx-background-color: transparent;
+}
+
+.transparent-scrollpane .corner {
+    -fx-background-color: transparent;
+}
+
+/* pixel-slider.css */
+
+/* Main slider container */
+.slider {
+    -fx-background-color: transparent;
+    -fx-padding: 10; /* optional padding */
+}
+
+/* Track (the line the thumb moves along) */
+.slider .track {
+    -fx-background-color: white;  /* track color */
+    -fx-background-radius: 0;     /* remove rounding */
+    -fx-border-radius: 0;         /* remove border rounding */
+    -fx-border-width: 0;
+    -fx-pref-height: 5px;         /* thickness */
+}
+
+/* Thumb (the draggable rectangle) */
+.slider .thumb {
+    -fx-background-color: #b1d4b6; /* your green background */
+    -fx-background-radius: 0;       /* no rounding */
+    -fx-border-color: black;        /* thick black border */
+    -fx-border-width: 5px;
+    -fx-pref-width: 40px;           /* rectangle width */
+    -fx-pref-height: 40px;          /* rectangle height */
+	-fx-background-insets: 0;
+	-fx-border-insets: 0;
+}
