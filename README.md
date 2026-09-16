@@ -21,7 +21,7 @@ A chess game written in Java with a JavaFX interface. Play two players on one co
 | Folder | What's inside |
 |---|---|
 | `chess/` | The game logic: board, pieces, move validation and the rules. Plain Java with no UI. `chess.Main` runs a text version in the console. |
-| `chessFX/` | The JavaFX app: `chessFX` (screens, board, clock, review), `engine` (FEN conversion and the connection to the engine), and the images, sounds and font. |
+| `chessFX/` | The javaFX app: `chessFX` (screens, board, clock, review), `engine` (FEN conversion and the connection to the engine), and the images, sounds and font. |
 
 ## Running it
 
@@ -32,3 +32,7 @@ You need JDK 22 or newer and the [JavaFX SDK 21](https://gluonhq.com/products/ja
 3. Run `chessFX.Main`.
 
 The bot needs an internet connection. Without one the game still works, and the bot plays a random legal move instead.
+
+## Credits
+
+   In the final stage I used AI tools to find and fix bugs.
