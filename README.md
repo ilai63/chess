@@ -32,7 +32,3 @@ You need JDK 22 or newer and the [JavaFX SDK 21](https://gluonhq.com/products/ja
 3. Run `chessFX.Main`.
 
 The bot needs an internet connection. Without one the game still works, and the bot plays a random legal move instead.
-
-## Credits
-
-In the final stage I used an AI assistant (Claude) to find and fix bugs and to finish parts of the game.
