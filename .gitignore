@@ -1,0 +1,17 @@
+# Eclipse build output
+bin/
+*.class
+
+# Built jars and the JDK / JavaFX SDK folders used to run them (the game itself goes in Releases)
+*.jar
+!chessFX/src/libs/*.jar
+jdk-*/
+javaFX_*/
+javafx-sdk-*/
+
+# Eclipse workspace and OS files
+.metadata/
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
