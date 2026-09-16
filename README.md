@@ -28,7 +28,7 @@ A chess game written in Java with a JavaFX interface. Play two players on one co
 You need JDK 22 or newer and the [JavaFX SDK 21](https://gluonhq.com/products/javafx/).
 
 1. In Eclipse, choose **File → Import → Existing Projects into Workspace** and import both `chess` and `chessFX`.
-2. Create a user library named `javaFX` (**Window → Preferences → Java → Build Path → User Libraries**) and add the jars from the `lib` folder of the JavaFX SDK.
+2. Create a user library named `JavaFX` (**Window → Preferences → Java → Build Path → User Libraries**) and add the jars from the `lib` folder of the JavaFX SDK.
 3. Run `chessFX.Main`.
 
 The bot needs an internet connection. Without one the game still works, and the bot plays a random legal move instead.
